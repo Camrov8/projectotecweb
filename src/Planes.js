@@ -2,7 +2,7 @@
 
 let dados = [
     {
-        "id":1,
+        "id":2,
         "nome":'A',
     },
 ]
@@ -21,4 +21,4 @@ function Planes(props){
         </div>
     );
 }
-export default Planes
+export default Planes;
