@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './Planes.css';
 import Layout from './Layout';
-import P1 from './P1';
 import Planes from './Planes';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
@@ -13,11 +13,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-    
+    <Routes>    
     <Route path="/" element={<Layout/>}>
-    <Route path="/Planes" element={<Planes>planes</Planes>}></Route>
-    <Route path="/P1"  element={<P1>P1</P1>}></Route>
+    <Route path="/Planes" element={<Planes></Planes>}></Route>
+   
     </Route>
     </Routes>
   </BrowserRouter>

@@ -4,9 +4,8 @@ function Layout(props){
 return(
     <>
        <nav>
-            <Link to="/Planes">Planes</Link>
-            <Link to="/P1">Planes</Link>
-             </nav>
+            <Link to="/Planes">Planes   </Link>
+          </nav>
         <Outlet/>
         </>
 );

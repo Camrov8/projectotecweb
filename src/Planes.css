@@ -1,7 +1,28 @@
-.Planes{
+.body{
     background-color: aqua;
 }
-#planeimg{width: 50vh;
-    height: 25vh;
 
+.planes{ display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+.plane{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.img{
+    width: 100%;
+    max-width: 300px; /* Tamanho máximo das imagens */
+    height: auto;
+    border-radius: 10px;
 }
