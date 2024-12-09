@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Planes.css';
-import Layout from './Layout';
+import './Layout.css';
 import Planes from './Planes';
+import Layout from './Layout';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -12,13 +13,11 @@ import {BrowserRouter, Routes, Route} from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-    <Routes>    
-    <Route path="/" element={<Layout/>}>
-    <Route path="/Planes" element={<Planes></Planes>}></Route>
-   
-    </Route>
-    </Routes>
+  <BrowserRouter>
+  <Routes>    
+    <Route path="/" element={<Layout/>}/>
+    <Route path="/Planes" element={<Planes></Planes>}/>   
+  </Routes>
   </BrowserRouter>
   </React.StrictMode>
 );
