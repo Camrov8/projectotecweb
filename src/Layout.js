@@ -5,9 +5,10 @@ return(
     <>
        <body className="layoutBody"> 
        <nav>
+       <p id="aviacao">Aviação</p><br/>
           <div className="linkPlanes">
             <Link to="/Planes" id='link'>
-              <img src="/img/f22.jpg" alt="" height="100vh" width="200vw"/>
+              <img src="/img/plane.jpg" alt="" />
             </Link>
           </div>
         </nav>

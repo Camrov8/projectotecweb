@@ -1,8 +1,46 @@
 .bodyLayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: auto;
+    border-color: rgb(233, 8, 8) ;
+    
 }
 
 .linkPlanes {
-    margin-left: 40%;
-    margin-top: 10%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 100%;             
+    height: auto;     
     
+       
 }
+
+.linkPlanes:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+#aviacao{
+    color:white;
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: auto;
+    animation: rotateHorizontal 3s infinite linear;
+}
+
+@keyframes rotateHorizontal {
+    0% {
+      transform: rotateX(0deg);
+    }
+    50% {
+      transform: rotateX(180deg); /* Meio do giro */
+    }
+    100% {
+      transform: rotateX(360deg); /* Finaliza o giro completo */
+    }
+  }

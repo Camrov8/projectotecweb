@@ -1,6 +1,6 @@
 
 
-let dados = [
+/*let dados = [
     {
         "id": 1,
         "nome": "F-22 Raptor",
@@ -29,7 +29,9 @@ let dados = [
         "velocidadeMaxima": "1020 km/h",
         "img":<img src="img\A380.jpg" alt="Foto de um avião" width="500"></img>
     },
-]
+]*/
+
+import dados from "./dados.json";
 function Planes(props){
 
 
@@ -39,8 +41,9 @@ function Planes(props){
                 <div className="planes">
                     {dados.map((item, index) => (
                         <div key={index} className="plane">
-                            <h1 className="img">{item.nome}</h1>
+                            <h1 >{item.nome}</h1>
                             <h2>{item.img}</h2>
+                            <img src={item.img} />
                             <p>Tipo: {item.tipo}</p>
                             <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
                         </div>
