@@ -31,7 +31,9 @@
     },
 ]*/
 
+import { Link} from "react-router-dom";
 import dados from "./dados.json";
+
 function Planes(props){
 
 
@@ -42,8 +44,9 @@ function Planes(props){
                     {dados.map((item, index) => (
                         <div key={index} className="plane">
                             <h1 >{item.nome}</h1>
-                            <h2>{item.img}</h2>
-                            <img src={item.img} />
+                            <Link to={"/Planes/"+item.id}>
+                            <img src={item.img} className="plane-img"/>
+                            </Link>
                             <p>Tipo: {item.tipo}</p>
                             <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
                         </div>

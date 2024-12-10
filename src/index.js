@@ -5,6 +5,7 @@ import './Planes.css';
 import './Layout.css';
 import Planes from './Planes';
 import Layout from './Layout';
+import Plane from './Plane';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
@@ -16,7 +17,9 @@ root.render(
   <BrowserRouter>
   <Routes>    
     <Route path="/" element={<Layout/>}/>
-    <Route path="/Planes" element={<Planes></Planes>}/>   
+    <Route path="/Planes" element={<Planes></Planes>}/>  
+    <Route path="/Planes/:id" element={<Plane/>}/>  
+  
   </Routes>
   </BrowserRouter>
   </React.StrictMode>

@@ -4,27 +4,27 @@
       "nome": "F-22 Raptor",
       "tipo": "Ataque",
       "velocidadeMaxima": "2410 km/h",
-      "img": "img/f22.jpg"
+      "img": "/img/f22.jpg"
     },
     {
       "id": 2,
       "nome": "Su-57 Felon",
       "tipo": "Ataque",
       "velocidadeMaxima": "2600 km/h",
-      "img": "img/Su57.jpg"
+      "img": "/img/Su57.jpg"
     },
     {
       "id": 3,
       "nome": "Boeing 747",
       "tipo": "Comercial",
       "velocidadeMaxima": "988 km/h",
-      "img": "img/boeing747.jpg"
+      "img": "/img/boeing747.jpg"
     },
     {
       "id": 4,
       "nome": "Airbus A380",
       "tipo": "Comercial",
       "velocidadeMaxima": "1020 km/h",
-      "img": "img/A380.jpg"
+      "img": "/img/A380.jpg"
     }
   ]
