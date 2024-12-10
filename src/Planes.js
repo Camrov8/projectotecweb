@@ -36,16 +36,16 @@ function Planes(props){
     return(
         (
             <body className="body">
-            <div className="planes">
-                {dados.map((item, index) => (
-                    <div key={index} className="plane">
-                        <h1 className="img">{item.nome}</h1>
-                        <h2>{item.img}</h2>
-                        <p>Tipo: {item.tipo}</p>
-                        <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
-                    </div>
-                ))}
-            </div>
+                <div className="planes">
+                    {dados.map((item, index) => (
+                        <div key={index} className="plane">
+                            <h1 className="img">{item.nome}</h1>
+                            <h2>{item.img}</h2>
+                            <p>Tipo: {item.tipo}</p>
+                            <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
+                        </div>
+                    ))}
+                </div>
             </body>
         )
     );
