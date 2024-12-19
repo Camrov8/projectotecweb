@@ -1,5 +1,5 @@
 
-import { useParams } from 'react-router-dom';
+import { useParams,Link } from 'react-router-dom';
 import dados from "./dados.json";
 
 
@@ -17,8 +17,12 @@ function Plane(){
     return(
         <div className="plane-details">
             <h1 >Plane {plane[0].nome}</h1>
-            <img src={plane[0].img} alt={plane[0].nome} />
-            
+            <img src={plane[0].img} alt={plane[0].nome} id='img'/>
+            <h1>
+            <Link to="/" id="linkButton">
+                <button>-Go Back-</button>
+            </Link>
+            </h1>
         
         </div>
     )

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './Planes.css';
+import './Plane.css';
 import './Layout.css';
 import Planes from './Planes';
 import Layout from './Layout';

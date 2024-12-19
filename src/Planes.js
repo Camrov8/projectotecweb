@@ -45,7 +45,7 @@ function Planes(props){
                         <div key={index} className="plane">
                             <h1 >{item.nome}</h1>
                             <Link to={"/Planes/"+item.id}>
-                            <img src={item.img} className="plane-img"/>
+                            <img src={item.img} className="plane-img" alt="plane"/>
                             </Link>
                             <p>Tipo: {item.tipo}</p>
                             <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
