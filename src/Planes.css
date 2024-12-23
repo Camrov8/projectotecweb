@@ -62,3 +62,9 @@
     height: 30vh;
     object-fit: cover;
 }
+
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: 3900;
+}

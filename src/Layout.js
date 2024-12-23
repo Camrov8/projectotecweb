@@ -8,7 +8,7 @@ return(
        <p id="aviacao">Aviação</p><br/>
           <div className="linkPlanes">
             <Link to="/Planes" id='link'>
-              <img src="/img/plane.jpg" alt="" />
+              <img src="/img/plane.jpg" alt="" id="plane"/>
             </Link>
           </div>
         </nav>

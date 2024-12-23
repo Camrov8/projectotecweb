@@ -1,4 +1,7 @@
 #linkButton{
+    color: rgb(255, 238, 0);
+    caret-color: white;
+    background-color: rgb(7, 0, 0);
     
 }
 #linkButton:active {
@@ -13,4 +16,22 @@ height: auto;
 max-width: 60vw;
 max-height: 40vh;
 object-fit: contain;
+
+
+
+}
+
+#plane-details{
+    background-image: url("/public/img/Sky.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+
+#name{
+    background: -webkit-linear-gradient(rgb(250, 250, 4),rgb(255, 255, 0),orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }

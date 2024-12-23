@@ -15,12 +15,15 @@ function Plane(){
     console.log(plane[0]);
 
     return(
+        
         <div className="plane-details">
-            <h1 >Plane {plane[0].nome}</h1>
+            <h1 id="name">Plane {plane[0].nome}</h1>
             <img src={plane[0].img} alt={plane[0].nome} id='img'/>
+            <h1 ><a href={plane[0].link} target="_blank" rel="noopener noreferrer">Mais info</a>
+            </h1>
             <h1>
-            <Link to="/" id="linkButton">
-                <button>-Go Back-</button>
+            <Link to="/" >
+                <button id="linkButton">-Go Back-</button>
             </Link>
             </h1>
         
