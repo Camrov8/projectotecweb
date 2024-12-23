@@ -1,9 +1,10 @@
-.bodyLayout {
-    display: flex;
-    justify-content: center;
-    align-items: center;     
-    height: auto;
-    border-color: rgb(233, 8, 8) ;
+.layoutBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+  height: auto;
+  border-color: rgb(233, 8, 8) ;
+  background: inherit;
     
 }
 
@@ -13,7 +14,8 @@
     justify-content: center;
     align-items: center;  
     width: 100%;             
-    height: auto;     
+    height: auto; 
+        
     
        
 }
@@ -24,7 +26,7 @@
 }
 
 #aviacao{
-    color:white;
+    color:black;
     font-size: 10vh;
     display: flex;
     justify-content: center;
@@ -42,5 +44,23 @@
     }
     100% {
       transform: rotateX(360deg); /* Finaliza o giro completo */
+    }
+  }
+
+  #plane{
+    width: 100%;
+height: auto;
+max-width: 60vw;
+max-height: 40vh;
+object-fit: contain;
+animation: move-background 10s linear infinite;
+  }
+
+  @keyframes move-background {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
     }
   }
