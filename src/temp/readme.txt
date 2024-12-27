@@ -1,0 +1,1 @@
+ficheiro com o codigo para usar um ficheiro  jason dados como input
