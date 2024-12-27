@@ -1,6 +1,7 @@
 .body{
     /*background-image: url("/public/img/Sky.jpg");*/
    /*background-color: red;*/
+   background-size: cover;
 }
 
 
@@ -55,6 +56,7 @@
     width: 30vw;
     border: 2px solid black;
     height: 60vh;
+    position: relative;
 }
 
 .plane-img{
@@ -65,6 +67,13 @@
 
 p{
     color: black;
-    font-size: 20px;
+    font-size: 50%;
     font-weight: 3900;
+    position: relative;
+}
+
+.Name{
+        color: #000000;
+        font-size: 60%;
+        position: relative;
 }

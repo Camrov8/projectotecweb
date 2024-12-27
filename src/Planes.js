@@ -43,12 +43,12 @@ function Planes(props){
                 <div className="planes">
                     {dados.map((item, index) => (
                         <div key={index} className="plane">
-                            <h1 >{item.nome}</h1>
+                            <h1 className="Name">{item.nome}</h1>
                             <Link to={"/Planes/"+item.id}>
                             <img src={item.img} className="plane-img" alt="plane"/>
                             </Link>
                             <p>Tipo: {item.tipo}</p>
-                            <p>Velocidade Máxima: {item.velocidadeMaxima}</p>
+                            <p>Velocidade Máxima: {item.velocidadeMaxima}</p><br/>
                         </div>
                     ))}
                 </div>

@@ -53,14 +53,4 @@ height: auto;
 max-width: 60vw;
 max-height: 40vh;
 object-fit: contain;
-animation: move-background 10s linear infinite;
-  }
-
-  @keyframes move-background {
-    from {
-      background-position: 0 0;
-    }
-    to {
-      background-position: 100% 0;
-    }
   }
