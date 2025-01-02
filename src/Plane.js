@@ -32,8 +32,7 @@ function Plane() {
 
     return (
         <body>  
-            <img src='Aeroplane-PNG-File-180x180.png' width="100%" height="10%">ssss</img>               
-        <div className="plane-details">
+            <div className="plane-details">
             <h1 id="name">Plane {plane.nome}</h1>
             <img src={plane.img} alt={plane.nome} id="img" />
             <h1>

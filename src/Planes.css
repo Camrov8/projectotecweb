@@ -73,7 +73,9 @@ p{
 }
 
 .Name{
-        color: #000000;
+        background: -webkit-linear-gradient(rgb(250, 250, 4),rgb(255, 255, 0),orange, red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 60%;
         position: relative;
 }
