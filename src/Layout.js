@@ -10,10 +10,10 @@ return(
             <Link to="/Planes" id='link'>
               <img src="/img/plane.jpg" alt="" id="plane"/>
             </Link>
-          </div>
+            </div>
         </nav>
-        <Outlet/>
-        </body>
+        <Outlet/><br/>
+       </body>
         </>
 );
 }

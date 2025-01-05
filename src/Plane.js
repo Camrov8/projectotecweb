@@ -30,13 +30,15 @@ function Plane() {
         return <div>Loading...</div>;
     }
 
+    
     return (
-        <body>  
+        
+        
             <div className="plane-details">
             <h1 id="name">Plane {plane.nome}</h1>
             <img src={plane.img} alt={plane.nome} id="img" />
             <h1>
-                <a href={plane.link} target="_blank" rel="noopener noreferrer">Mais info</a>
+            <a href={plane.link} target="_blank" rel="noopener noreferrer">Mais info</a>
             </h1>
             <h1>
                 <Link to="/">
@@ -44,7 +46,7 @@ function Plane() {
                 </Link>
             </h1>
         </div>
-        </body>
+        
     );
 }
 

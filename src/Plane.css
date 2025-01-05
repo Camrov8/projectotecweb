@@ -19,12 +19,15 @@ object-fit: contain;
 
 
 
+
 }
 
 #plane-details{
-    background-image: url("/public/img/Sky.jpg");
+   background-image: url("/public/img/Sky.jpg");
    background-size: cover;
    background-repeat: no-repeat;
+   margin: 0;
+   
 }
 
 

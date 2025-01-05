@@ -5,7 +5,9 @@
       "tipo": "Ataque",
       "velocidadeMaxima": "2410 km/h",
       "img": "/img/f22.jpg",
-      "link": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor"
+      "link": "https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor",
+      "about": "O F-22 Raptor é um caça furtivo de quinta geração desenvolvido pela Lockheed Martin para a Força Aérea dos Estados Unidos. Conhecido por sua velocidade, agilidade e aviônicos avançados, destaca-se em superioridade aérea, ataques de precisão e evasão de sistemas de radar inimigos."
+
     },
     {
       "id": 2,
